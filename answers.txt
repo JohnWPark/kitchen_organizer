@@ -1,17 +1,10 @@
-cd kitchen/
-
-rm fridge/diapers.txt fridge/freezer/couch.txt fridge/trashcan/sink/delete-me.txt
-
 mv cans.txt pantry/
-
-mv fridge/trashcan/ .
-
-mv trashcan/sink/ .
-
-mkdir sink/drying-rack/
-
+rm fridge/diapers.txt fridge/freezer/couch.txt fridge/trashcan/sink/delete-me.txt
+mv trashcan/ ~/kitchen_organizer
+mv pantry/ ~/kitchen_organizer
+mv sink/ ~/kitchen_organizer
+mv crisper-drawer ../fridge
+touch fridge/crisper-drawer/apples.txt
+mkdir sink/drying-rack
 mv clean-dishes.txt drying-rack/
 
-mv pantry/crisper-drawer fridge/
-
-touch fridge/crisper-drawer/apples.txt
